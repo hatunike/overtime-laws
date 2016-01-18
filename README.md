@@ -5,9 +5,31 @@ Software can then be compliant with the test data and test results.
 
 
 workweek :  (any fixed and regularly recurring period of 168 hours — seven consecutive 24-hour periods) 
+
 regular rates :  "Bonus payments" are to be included in calculating an employees "regular rate"
+
 hours worked : Ordinarily include all the time during which an employee is required to be on the employer’s premises, on duty, or at a prescribed workplace.
-Employees covered by [Fair Labor	Standards Act](http://www.dol.gov/whd/flsa/) must receive overtime pay for hours worked in excess	of 40 in a workweek of at least one and one-half times their regular rates of	pay
+
+Employees covered by [Fair Labor	Standards Act](http://www.dol.gov/whd/flsa/) must receive overtime pay for hours worked in excess of 40 in a workweek of at least one and one-half times their regular rates of	pay
+
+## Federal Calculations
+
+
+## State Calculations
+
+### California
+
+hours worked beyond eight hours per day qualify for overtime pay of one-and-one-half times the regular hourly wage. 
+
+
+
+
+
+
+
+
+
+
 
 
 
