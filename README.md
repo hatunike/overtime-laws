@@ -10,18 +10,29 @@ regular rates :  "Bonus payments" are to be included in calculating an employees
 
 hours worked : Ordinarily include all the time during which an employee is required to be on the employer’s premises, on duty, or at a prescribed workplace.
 
+###Federal
 Employees covered by [Fair Labor	Standards Act](http://www.dol.gov/whd/flsa/) must receive overtime pay for hours worked in excess of 40 in a workweek of at least one and one-half times their regular rates of	pay
 
-## Federal Calculations
+### State
+Hours worked beyond eight hours per day qualify for overtime pay of one-and-one-half times the regular hourly wage.
+ 
+### Timezones
+Timezones are important to handle correctly, and they are what makes this such a difficult problem.
 
+### Seed Data
+Good seed data that can be used to verify that numbers have been accurately calculated is essential to writing software for calculating totals. There are many scenarios which, if unhandled by the software, will be shown in real life to give incorrect totals. This suite of tests is designed to cover each of the scenarios. JSON, and XML files will be made available to assist in writing the software. Here they will be documented and discussed. They are grouped by year.
 
-## State Calculations
+##2016
 
-### California
+### #1 - Basic Totals - No Overtime
 
-hours worked beyond eight hours per day qualify for overtime pay of one-and-one-half times the regular hourly wage. 
-
-
+#### Variation A
+    {
+        week_start_epoch: 1453075200,
+        week_start_human: Mon, 18 Jan 2016 00:00:00 GMT,
+        week_end_epoch:1453636799,
+        week_end_human:Sun, 24 Jan 2016 11:59:59 GMT
+    }
 
 
 
