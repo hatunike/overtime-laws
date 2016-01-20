@@ -17,7 +17,7 @@ Employees covered by [Fair Labor	Standards Act](http://www.dol.gov/whd/flsa/) mu
 Hours worked beyond eight hours per day qualify for overtime pay of one-and-one-half times the regular hourly wage.
  
 ### Timezones
-Timezones are important to handle correctly, and they are what makes this such a difficult problem.
+Timezone strategy : 
 
 ### Seed Data
 Good seed data that can be used to verify that numbers have been accurately calculated is essential to writing software for calculating totals. There are many scenarios which, if unhandled by the software, will be shown in real life to give incorrect totals. This suite of tests is designed to cover each of the scenarios. JSON, and XML files will be made available to assist in writing the software. Here they will be documented and discussed. They are grouped by year.
