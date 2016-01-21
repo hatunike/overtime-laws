@@ -17,7 +17,7 @@ Employees covered by [Fair Labor	Standards Act](http://www.dol.gov/whd/flsa/) mu
 Hours worked beyond eight hours per day qualify for overtime pay of one-and-one-half times the regular hourly wage.
  
 ### Timezones
-Timezone strategy : 
+Timezone strategy : timezones can complicate the process quite a bit. What constitutes the work week is a huge decision in this regard. The requirement is 7 consecutive days of 24 hours. A) a company can decide to have each employees time start counting for On their local time zone midnights, or they can have a set company timezone start and end date. Each appear to be legal interpretations. This decision is further complicated by places and cultures that have daily overtime laws. In theory having a single start and end overtime period is technically easier to develop for, however from a product perspective, the latter provides an easier set of rules to communicate with employees. This type of question is especially important for supporting companies that have employees that work in multiple time zones and for employees who travel between timezones. Communicating which strategy is implemented is a large issue for all software that tries to get this right.
 
 ### Seed Data
 Good seed data that can be used to verify that numbers have been accurately calculated is essential to writing software for calculating totals. There are many scenarios which, if unhandled by the software, will be shown in real life to give incorrect totals. This suite of tests is designed to cover each of the scenarios. JSON, and XML files will be made available to assist in writing the software. Here they will be documented and discussed. They are grouped by year.
