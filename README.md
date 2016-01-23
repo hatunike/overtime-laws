@@ -22,9 +22,9 @@ Timezone strategy : timezones can complicate the process quite a bit. What const
 ### Seed Data
 Good seed data that can be used to verify that numbers have been accurately calculated is essential to writing software for calculating totals. There are many scenarios which, if unhandled by the software, will be shown in real life to give incorrect totals. This suite of tests is designed to cover each of the scenarios. JSON, and XML files will be made available to assist in writing the software. Here they will be documented and discussed. They are grouped by year.
 
-## Weekly Overtime Law 
-### Timezone Strategy 1
 
+## Federal Weekly Overtime Law 
+### Timezone Strategy 1
     {
         week_start_epoch: 1453075200,
         week_start_human: Mon, 18 Jan 2016 00:00:00 GMT,
@@ -32,21 +32,31 @@ Good seed data that can be used to verify that numbers have been accurately calc
         week_end_human:Sun, 24 Jan 2016 11:59:59 GMT
     }
 
-#### Weekly Totals Less than 40 hours
+#### Less than 40 hours
 
-#### Weekly Totals Greater than 40 hours
+    {
+        [
+        ]
+    }
 
-#### Weekly Totals Handling Durations Beginning before weekly start date
+#### Greater than 40 hours
 
-#### Weekly Totals Handling Durations Ending after weekly end date
+#### Some Beginning before weekly start date
 
-#### Weekly Totals Handling Durations Spanning entire week
+#### Some Ending after weekly end date
 
-#### Weekly Totals Handling Combinations of All Four Duration Types
+#### Some Durations Spanning entire week
 
-#### Weekly Totals Handling daylight savings time change
+#### Some Combinations of All Four Duration Types
 
-#### Weekly Totals Handling a wage change mid week
+#### Daylight savings time change
+
+#### Timezone changes during duration
+
+#### Wage change mid week
+
+### TimeZone Strategy 2
+
 
 
 
