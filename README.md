@@ -57,6 +57,22 @@ Good seed data that can be used to verify that numbers have been accurately calc
 
 ### TimeZone Strategy 2
 
+#### Greater than 40 hours
+
+#### Some Beginning before weekly start date
+
+#### Some Ending after weekly end date
+
+#### Some Durations Spanning entire week
+
+#### Some Combinations of All Four Duration Types
+
+#### Daylight savings time change
+
+#### Timezone changes during duration
+
+#### Wage change mid week
+
 
 
 
